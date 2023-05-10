@@ -12,7 +12,7 @@ To use this program, you will need to have the following libraries installed:
     selenium
 
 Once you have installed the required libraries, you can run the program by following these steps:
-
+    firstly geckodriver is for firefox you must download chorme or any other web driver if you do not have firefox installed
     Edit the url variable on line 33 to specify the webpage you want to scrape.
     Edit the link1 variable on line 16 to specify the domain name of the torrent website you want to use, and concatenate it with the address of the desired web page.
     Edit the targetlink variable on line 34 to specify the phrase that is always included in the target links, except for the domain name.
